@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NeuroLens AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(180deg, #031820 0%, #081f26 100%);
+      color: #e6f8f0;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: #0c2830;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      text-align: center;
+      width: 600px;
+    }
+    .logo img {
+      height: 70px;
+      margin-bottom: 20px;
+    }
+    h1 { color: #c8e4ff; }
+    input[type="file"] { display: none; }
+    label {
+      display: inline-block;
+      background: #c8e4ff;
+      color: #002018;
+      padding: 12px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    .preview {
+      margin-top: 20px;
+      width: 100%;
+      height: 300px;
+      border: 2px dashed rgba(255,255,255,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.03);
+    }
+    .preview img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 10px;
+    }
+    button {
+      background: #c8e4ff;
+      border: none;
+      padding: 12px 22px;
+      color: #002018;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="static/assets/logo.png" alt="NeuroLens AI">
+    </div>
+    <h1>NeuroLens AI</h1>
+    <p>AI-powered diabetic retinopathy screening (demo version)</p>
+
+    <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data">
+      <label for="fileInput">Upload Retina Image</label>
+      <input type="file" id="fileInput" name="file" accept="image/*">
+      <div class="preview" id="preview"><span>No image selected</span></div>
+      <button id="analyzeBtn" disabled>Analyze</button>
+    </form>
+  </div>
+
+  <script>
+    const fileInput = document.getElementById("fileInput");
+    const preview = document.getElementById("preview");
+    const analyzeBtn = document.getElementById("analyzeBtn");
+
+    fileInput.addEventListener("change", (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        const url = URL.createObjectURL(file);
+        preview.innerHTML = `<img src="${url}" alt="Preview">`;
+        analyzeBtn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
