@@ -117,11 +117,6 @@ This project is licensed under the MIT License
 .
 Feel free to use, modify, and distribute this software with proper attribution.
 
-## ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub — it helps others discover it and motivates further development.
-
-<p align="center"> <img src="https://img.shields.io/github/stars/Malav-joshi/Neura-Lense?style=social"> </p>
-💡 Tagline
+## 💡 Tagline
 
 “Your Eyes Tell a Story — Neura Lense Helps You Read It.”
