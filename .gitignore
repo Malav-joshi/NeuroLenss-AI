@@ -1,0 +1,71 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Virtual Environments =====
+venv/
+env/
+.venv/
+ENV/
+
+# ===== Environment / Config Files =====
+.env
+*.env
+config.json
+secret.json
+credentials.json
+
+# ===== Flask Cache / Logs =====
+instance/
+*.log
+logs/
+*.db
+*.sqlite3
+
+# ===== Compiled Models / Checkpoints =====
+*.onnx
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# ===== Uploaded & Generated Files =====
+static/uploads/
+static/results/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ===== System / Editor Files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / Editor Settings =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===== Build / Distribution =====
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ===== Temporary / Backup Files =====
+*.bak
+*.tmp
+*.swp
+*.zip
+*.tar
+*.gz
+*.rar
+
+# ===== Optional: Keep Empty Folders =====
+!static/assets/
+!templates/
