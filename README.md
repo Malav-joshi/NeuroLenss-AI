@@ -75,7 +75,8 @@ Visualization	Grad-CAM, OpenCV
 
 ## 🎥 App Preview
 
-🎬 [Watch Demo Video on Google Drive]([https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing](https://drive.google.com/file/d/1O4nkIq0xOf8GYGdzPwwVonQQmCnG9qPb/view?usp=sharing))
+🎬 [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1O4nkIq0xOf8GYGdzPwwVonQQmCnG9qPb/view?usp=sharing)
+
 
 
 
