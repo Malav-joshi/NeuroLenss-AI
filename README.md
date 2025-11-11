@@ -1,4 +1,4 @@
-## 🧠 Neura Lense AI
+## 🧠 Neuro Lens AI
 <p align="center"> <img src="static/assets/logo.png" alt="Neura Lense Logo" width="140"> </p> <p align="center"> <em>Empowering early retinal disease detection through AI-powered vision.</em><br> <strong>Built with Deep Learning · Flask · YOLO · Computer Vision</strong> </p>
 
 ## 🌟 Overview
