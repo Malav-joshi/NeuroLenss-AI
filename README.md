@@ -120,4 +120,4 @@ Feel free to use, modify, and distribute this software with proper attribution.
 
 ## 💡 Tagline
 
-“Your Eyes Tell a Story — Neura Lense Helps You Read It.”
+“Your Eyes Tell a Story — Neuro Lens Helps You Read It.”
